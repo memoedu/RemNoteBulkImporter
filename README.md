@@ -1,5 +1,8 @@
 # RemNote Bulk Importer
 
+> 此独立服务已退役。现役源码、功能开发、启动和 MCP 入口统一到 [RemNoteMCP](../RemNoteMCP/README.md)。下文保留历史实现说明，不是启动指令；不要重新启用本项目的独立计划任务。
+
+
 协作开发、Agent 提交与合并规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 Independent personal RemNote plugin and loopback MCP service for importing a prepared, source-neutral document tree in one resumable job. It does not depend on or modify RemNote MCP Automation Bridge.

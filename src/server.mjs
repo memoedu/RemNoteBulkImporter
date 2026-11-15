@@ -187,6 +187,7 @@ export async function createService({port=43106,buildRoot='D:/Artifacts/RemNoteB
 }
 
 if(process.argv[1] && fileURLToPath(import.meta.url)===path.resolve(process.argv[1])){
+  throw Error('Independent MCP retired. Run D:/Projects/RemNoteMCP/scripts/unified-run.mjs or the RemNote MCP Server task.');
   const service=await createService();console.log(JSON.stringify({service:'RemNoteBulkImporter',port:service.port,mcp:'http://127.0.0.1:43106/mcp',plugin:'http://localhost:43106',state:'D:/AppData/RemNoteBulkImporter'}));
   const shutdown=async()=>{await service.close();process.exit(0);};process.on('SIGINT',shutdown);process.on('SIGTERM',shutdown);
 }

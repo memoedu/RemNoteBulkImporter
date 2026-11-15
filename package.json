@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit --pretty false",
     "canary": "node scripts/canary.mjs",
     "test": "node --test test/*.test.mjs",
-    "start": "node src/server.mjs",
+    "start": "node D:/Projects/RemNoteMCP/scripts/unified-run.mjs",
     "cli": "node src/cli.mjs",
     "course": "node consumers/course-workflow.mjs"
   },
