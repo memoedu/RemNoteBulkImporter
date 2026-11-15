@@ -1,5 +1,7 @@
 # RemNote Bulk Importer
 
+- 本项目已退役为历史来源。当前功能维护、服务运行和新开发只在 D:/Projects/RemNoteMCP；下文旧隔离边界仅用于理解历史，不得据此恢复独立 MCP、插件运行时或启动任务。
+
 - 代码提交、PR 合并、同步与共享边界遵守 [CONTRIBUTING.md](CONTRIBUTING.md)。历史任务授权、私人账号及生产数据权限不随源码共享转移给其他成员或 Agent。
 
 Independent RemNote SDK plugin and loopback MCP service for source-neutral bulk imports. Preserve its isolation from the existing Automation Bridge and its ports.
